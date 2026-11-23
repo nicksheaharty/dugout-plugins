@@ -1,0 +1,20 @@
+{
+  "name": "dugout-plugins",
+  "interface": {
+    "displayName": "DugOut"
+  },
+  "plugins": [
+    {
+      "name": "dugout",
+      "source": {
+        "source": "local",
+        "path": "./plugins/openai"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "dugout",
+  "version": "1.0.0",
+  "description": "Search DugOut's pool of independent filmmakers, animators and storytellers in plain English, with fit scores, reasons grounded in their uploads, and DugOut profile cards.",
+  "author": {
+    "name": "DugOut",
+    "url": "https://dugouttalent.com"
+  },
+  "homepage": "https://dugouttalent.com",
+  "repository": "https://github.com/nicksheaharty/dugout-plugins",
+  "license": "LicenseRef-DugOut-Proprietary",
+  "keywords": [
+    "dugout",
+    "talent",
+    "creators",
+    "film",
+    "development"
+  ],
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "DugOut",
+        "shortDescription": "Find independent filmmakers, animators and storytellers",
+        "longDescription": "Search DugOut's pool of independent creators on YouTube and Vimeo in plain English: a role, a Genre, a tone, a comparable or a budget. Each result shows a fit score, whether they're a genuine fit or a stretch, a reason grounded in their uploads, their IP, Audience, Story and Momentum scores, and a link to their DugOut profile. Requires a DugOut account.",
+        "developerName": "DugOut",
+        "category": "Productivity",
+        "websiteURL": "https://dugouttalent.com",
+        "supportURL": "https://dugouttalent.com/contact",
+        "privacyPolicyURL": "https://dugouttalent.com/privacy",
+        "termsOfServiceURL": "https://dugouttalent.com/terms",
+        "defaultPrompt": [
+          "Find analog horror directors with no rep",
+          "Who's like Kane Parsons on DugOut?",
+          "Shortlist animators for a dark family feature"
+        ],
+        "brandColor": "#b5442c",
+        "brandColorDark": "#b5442c",
+        "composerIcon": "./assets/composer-icon.png",
+        "composerIconDark": "./assets/composer-icon.png",
+        "logo": "./assets/logo.png",
+        "logoDark": "./assets/logo.png"
+      }
+    }
+  }
+}

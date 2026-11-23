@@ -1,0 +1,15 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "dugout-plugins",
+  "description": "DugOut's plugins: search independent creators from Claude.",
+  "owner": { "name": "DugOut", "url": "https://dugouttalent.com" },
+  "plugins": [
+    {
+      "name": "dugout",
+      "source": "./plugins/claude",
+      "description": "Search DugOut's creator pool in plain English, with fit scores, reasons and profile cards.",
+      "category": "productivity",
+      "tags": ["talent", "creators", "film"]
+    }
+  ]
+}

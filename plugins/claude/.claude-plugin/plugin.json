@@ -1,0 +1,16 @@
+{
+  "name": "dugout",
+  "displayName": "DugOut",
+  "version": "1.0.0",
+  "description": "Search DugOut's pool of independent filmmakers, animators and storytellers in plain English, with fit scores, reasons grounded in their uploads, and DugOut profile cards.",
+  "author": { "name": "DugOut", "url": "https://dugouttalent.com" },
+  "homepage": "https://dugouttalent.com",
+  "repository": "https://github.com/nicksheaharty/dugout-plugins",
+  "license": "LicenseRef-DugOut-Proprietary",
+  "keywords": ["dugout", "talent", "creators", "film", "development", "mcp"],
+  "icon": "./assets/icon.png",
+  "documentationUrl": "https://app.dugouttalent.com/settings#integrations",
+  "supportUrl": "https://dugouttalent.com/contact",
+  "privacyPolicyUrl": "https://dugouttalent.com/privacy",
+  "termsOfServiceUrl": "https://dugouttalent.com/terms"
+}
