@@ -1,6 +1,6 @@
 {
   "name": "dugout",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Search DugOut's pool of independent filmmakers, animators and storytellers in plain English, with fit scores, reasons grounded in their uploads, and DugOut profile cards.",
   "author": {
     "name": "DugOut",
@@ -20,10 +20,10 @@
   "mcpServers": "./.mcp.json",
   "interface": {
     "displayName": "DugOut",
-    "shortDescription": "Find independent filmmakers, animators and storytellers",
-    "longDescription": "Search DugOut's pool of independent creators on YouTube and Vimeo in plain English: a role, a Genre, a tone, a comparable or a budget. Each result shows a fit score, whether they're a genuine fit or a stretch, a reason grounded in their uploads, their IP, Audience, Story and Momentum scores, and a link to their DugOut profile. Requires a DugOut account.",
+    "shortDescription": "Find film and animation talent",
+    "longDescription": "DugOut is a talent-scouting tool for film, TV and studio development teams. It tracks independent filmmakers, animators and storytellers who publish on YouTube and Vimeo, and this plugin lets you search them from ChatGPT in plain English.\n\nWhat it does:\n- Search creators by role, Genre, tone, format, budget or a comparable (\"an analog horror director like Kane Parsons\").\n- Rank each result with a fit score, mark it a genuine fit or a stretch, and give a one-line reason grounded in the creator's uploads.\n- Show a creator's profile: summary, best uploads, IP, Audience, Story and Momentum scores (0-100), rep status and a link to their DugOut profile.\n\nWho it's for: development executives, producers, agents and managers looking for directors, writers, animators and showrunners for projects.\n\nLimitations: requires a DugOut account on a team with an active trial or plan; read-only (it can't contact, sign or message creators); covers only creators DugOut tracks; up to 200 searches per person per day; trial teams see a limited number of results per search.",
     "developerName": "DugOut",
-    "category": "Productivity",
+    "category": "Business & Operations",
     "websiteURL": "https://dugouttalent.com",
     "supportURL": "https://dugouttalent.com/contact",
     "privacyPolicyURL": "https://dugouttalent.com/privacy",
