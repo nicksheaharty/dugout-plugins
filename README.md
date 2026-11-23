@@ -45,9 +45,6 @@ codex plugin add dugout@dugout-plugins
 
 Build the upload with `scripts/package-openai.sh`, which writes `dist/dugout-openai.zip`, and upload it at platform.openai.com/plugins. For a private test, open chatgpt.com/plugins and choose + › Add custom MCP server with the URL above.
 
-## Maintaining
+## Support
 
-- The skills live in `plugins/claude/skills`. `scripts/sync-skills.sh` copies them into `plugins/openai/skills`. Run it before committing skill changes.
-- Bump `version` in both plugin manifests when you change a plugin, so installed copies update.
-- The server, its card UI and its sign-in code live in the `dugout-app` repo, in `functions/src/mcp.ts` and `functions/src/mcp-widget.ts`.
-- OpenAI domain verification: put the token they give you in Firestore at `ops/openaiChallenge` as `{ token }`. The server then serves it at `https://mcp.dugouttalent.com/.well-known/openai-apps-challenge`.
+Questions or problems: https://dugouttalent.com/contact
