@@ -3,15 +3,18 @@
   "mcpServers": {
     "dugout": {
       "type": "streamable-http",
-      "url": "https://mcp.dugouttalent.com/mcp"
-    }
-  },
-  "extensions": {
-    "com.openai": {
-      "auth": {
-        "type": "oauth",
-        "client": {
-          "mode": "dcr"
+      "url": "https://mcp.dugouttalent.com/mcp",
+      "extensions": {
+        "com.openai": {
+          "auth": {
+            "type": "oauth",
+            "client": {
+              "mode": "dcr"
+            },
+            "defaultScopes": [
+              "creators:search"
+            ]
+          }
         }
       }
     }
