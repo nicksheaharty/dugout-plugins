@@ -1,6 +1,8 @@
 # DugOut plugins
 
-Search DugOut's pool of independent filmmakers, animators and storytellers from Claude, ChatGPT and Codex. Each result shows a fit score, whether the creator is a genuine fit or a stretch, a reason grounded in their uploads, their IP, Audience, Story and Momentum scores, and a link to their DugOut profile. In apps that support MCP Apps (ChatGPT and Claude), results show as DugOut cards.
+Search work that independent filmmakers, animators and storytellers have published on YouTube and Vimeo, from Claude, ChatGPT and Codex. Each result shows how closely the creator's work matches your search, a note citing the uploads that match, DugOut's ratings of that published work (IP, Audience, Story, Momentum), and a link to their DugOut profile. In apps that support MCP Apps (ChatGPT and Claude), results show as DugOut cards.
+
+**About the creators.** DugOut profiles are built only from work creators have published publicly, and are visible only to signed-in DugOut customers. Creators can claim, correct or remove their profile at [creators.dugouttalent.com](https://creators.dugouttalent.com), or by request through the [privacy policy](https://dugouttalent.com/privacy).
 
 Both plugins connect to the same server, `https://mcp.dugouttalent.com/mcp`. You sign in with your DugOut Google account the first time you use it. A DugOut team with an active plan or trial is required.
 
@@ -11,13 +13,13 @@ Both plugins connect to the same server, `https://mcp.dugouttalent.com/mcp`. You
 
 ## Tools
 
-- `search_creators`: plain-English search, for example "analog horror director with no rep". Filters: archetype, Genres, platform, `open_to_work`, `verified`. `fast` skips the reasons.
+- `search_creators`: plain-English search over published work, for example "analog horror web series". Filters: archetype, Genres, platform, `open_to_work`, `verified`. `fast` skips the reasons.
 - `get_creator`: one creator's profile, by DugOut id, @handle or name.
 
 ## Skills
 
-- `find-creators`: how to search and present results.
-- `creator-shortlist`: turns a brief into a ranked shortlist memo.
+- `find-creators` (Claude, ChatGPT, Codex): how to search published work and present results.
+- `creator-shortlist` (ChatGPT and Codex only): turns a brief into a short memo of matching creators.
 
 ## Install
 
@@ -28,7 +30,7 @@ Both plugins connect to the same server, `https://mcp.dugouttalent.com/mcp`. You
 /plugin install dugout@dugout-plugins
 ```
 
-Then run `/mcp` and sign in to `dugout`. Skills appear as `/dugout:find-creators` and `/dugout:creator-shortlist`.
+Then run `/mcp` and sign in to `dugout`. The skill appears as `/dugout:find-creators`.
 
 **Claude (web and desktop)**
 
